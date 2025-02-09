@@ -9,7 +9,7 @@ int main() {
     else if((a>='A'&&a<='Z')||(a>='a'&&a<='z'))
     {
         char lower_a = tolower(a);
-        if((a=='a')||(a=='e')||(a=='i')||(a=='o')||(a=='u'))
+        if((lower_a=='a')||(lower_a=='e')||(lower_a=='i')||(lower_a=='o')||(lower_a=='u'))
         {
             printf("Vowel");
         }
