@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int SP, CP;
-    scanf("%d %d", &SP, &CP);
+    int CP, SP;
+    scanf("%d %d", &CP, &SP);
     if(SP>CP){
         printf("Profit");
     }
