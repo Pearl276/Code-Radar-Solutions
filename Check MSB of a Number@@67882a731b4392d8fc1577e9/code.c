@@ -2,8 +2,8 @@
 int main() {
     int a, MSB;
     scanf("%d", &a);
-    MSB= a<<31;
-    if (a&MSB !=0)
+    MSB= 1<<31;
+    if ((a&MSB) !=0)
     {
         printf("Set");
     }
