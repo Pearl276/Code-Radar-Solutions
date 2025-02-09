@@ -3,7 +3,7 @@ int main() {
     int a,b;
     char op;
     scanf("%d %d", &a,&b);
-    scanf("%c", &op);
+    scanf(" %c", &op);
     if (op=='+'){
         printf("%d", a+b);
     }
@@ -14,7 +14,12 @@ int main() {
         printf("%d", a*b);
     }
     else if(op== '/'){
-        printf("%d", a/b);
+        if (b!=0){
+            printf("%d", a/b);
+        }
+        else{
+            printf("error");
+        }
     }
     else{
         printf("error");
