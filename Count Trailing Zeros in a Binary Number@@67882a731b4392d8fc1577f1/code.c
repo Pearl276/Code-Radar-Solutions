@@ -6,10 +6,9 @@ int main(){
         printf("32\n");
     }
     count=0;
-    for (int i=31; i>=0; i--){
-        if ((n<<i)&1)
-          break;
+    while((n&1)==0){
         count++;
+        n=n>>1;
     }
     printf("%d", count);
     return 0;
