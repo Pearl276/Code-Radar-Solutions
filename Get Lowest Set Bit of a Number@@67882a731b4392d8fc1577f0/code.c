@@ -8,7 +8,7 @@ int main() {
         printf("No");
         return 0; 
     }
-    position = 1;
+    position = 0;
     while (!(n & 1)) { 
         position++;
         n = n >> 1;
