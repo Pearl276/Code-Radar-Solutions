@@ -4,6 +4,7 @@ int main(){
     scanf("%d", &n);
     if (n==0){
         printf("No");
+        return 0;
     }
     position=1;
     while(!(n&1)){
