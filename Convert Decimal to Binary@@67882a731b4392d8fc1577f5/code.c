@@ -7,7 +7,7 @@ int main() {
         printf("0");
         return 0;
     }
-    for (int i = 31; i >= 0; i--) {
+    for (int i = 3; i >= 0; i--) {
         bit = (n >> i) & 1; 
         printf("%d", bit); 
     }
