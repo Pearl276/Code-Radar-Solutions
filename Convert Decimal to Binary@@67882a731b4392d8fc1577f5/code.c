@@ -2,7 +2,6 @@
 
 int main() {
     int n, bit;
-    printf("Enter a decimal number: ");
     scanf("%d", &n);
     if (n == 0) {
         printf("0");
