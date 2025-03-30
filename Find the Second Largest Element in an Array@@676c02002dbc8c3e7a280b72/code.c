@@ -4,7 +4,7 @@ int main(){
     scanf("%d", &n);  //size of array
     int arr[n];
     for (i=0; i<n; i++){
-        scanf("%d ", &arr[i]);
+        scanf("%d", &arr[i]);
     }
     int largest= arr[0];
     int second_largest= -1;
