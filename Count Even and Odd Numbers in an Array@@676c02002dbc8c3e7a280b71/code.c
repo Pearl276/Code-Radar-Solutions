@@ -33,7 +33,7 @@ int main() {
     
     // Printing results
     printf("%d\n", even);
-    printf(""%d\n", odd);
+    printf("%d\n", odd);
     
     return 0;
 }
