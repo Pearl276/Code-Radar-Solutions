@@ -17,13 +17,11 @@ int main() {
     int n;
     
     // Taking array size input
-    printf("Enter the number of elements: ");
     scanf("%d", &n);
     
     int arr[n]; // Declare an array of size 'n'
     
     // Taking array elements input
-    printf("Enter %d elements: ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
