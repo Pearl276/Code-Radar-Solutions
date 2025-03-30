@@ -19,12 +19,8 @@ int main(){
         else if(arr[i]>second_largest && arr[i]!=largest){
             second_largest= arr[i];
         }
-        if (second_largest == -1){
-            printf("%d", second_largest);
-        }
-        else{
-            printf("%d", second_largest);
-        }
-        return 0;
+
     }
+    printf("%d", second_largest);
+    return 0;
 }
