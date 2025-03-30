@@ -7,10 +7,10 @@ int binarySearch(int arr[], int n, int target){
             return mid;
         }
         else if(arr[mid]< target){
-            low= n+1;
+            low= mid+1;
         }
         else{
-            high= n-1;
+            high= mid-1;
         }
     }
     return -1;
