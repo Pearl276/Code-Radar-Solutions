@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-    int i,n, arr[n];
+    int i,n;
     scanf("%d", &n);  //size of array
+    int arr[n];
     for (i=0; i<n; i++){
         scanf("%d ", &arr[i]);
     }
@@ -9,11 +10,11 @@ int main(){
     int second_largest= -1;
     for (i=1; i<n; i++){
         if (arr[i]>largest){
-            largest= arr[i];
             second_largest= largest;
+            largest= arr[i];
         }
         else if(arr[i]>second_largest && arr[i]!=largest){
-            second_largest= largest;
+            second_largest= arr[i];
         }
         if (second_largest == -1){
             printf("%d", second_largest);
