@@ -2,6 +2,9 @@
 int main(){
     int i,n;
     scanf("%d", &n);  //size of array
+    if (n < 2) {
+        return 0;
+    }
     int arr[n];
     for (i=0; i<n; i++){
         scanf("%d", &arr[i]);
